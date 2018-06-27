@@ -63,5 +63,4 @@ normalWifi = getStats('Normal Wi-Fi Data v3.csv')
 ##replayZwave = getStats('')
 """
 
-printList(normalWifi)
 writeStats('Normal Wi-Fi Data v3.csv', 'Normal Wi-Fi Stats.csv')
